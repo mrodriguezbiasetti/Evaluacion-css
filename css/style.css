@@ -36,6 +36,14 @@ img{
 	.imagen-secundaria-33{
 		width: 100%;
 	}
+	
+	.columnas-25{
+		width: 100%;
+	}
+	
+	.columnas-25 p{
+		text-align: center;
+	}
 }
 @media screen and (min-width: 900px){
 	#contenido{
@@ -53,6 +61,10 @@ img{
 		float: left;
 	}
 	
+	.columnas-25{
+		width: 25%;
+	}
+	
 	.imagen-secundaria-50{
 		width: 50%;
 	}
@@ -61,7 +73,7 @@ img{
 		width: 33.33333%;
 	}
 }
-
+/*Encabezado*/
 
 #cabecera{
 	background-color: #5b7989;
@@ -83,7 +95,7 @@ header a{
 	font-size: 20px;
 	margin-left: 20px;
 }
-
+/*Imágenes*/
 .imagen-central{
 	text-align: center;
 	background-color: #82c3a6;
@@ -154,4 +166,24 @@ header a{
 	transition-duration: 1s,0.5s;
 	box-shadow: 2px 2px 11px 0.5em #82c3a6;
 	border: 2px solid;
+}
+/* Pie de página*/
+footer{
+	border-radius: 0 0 10px 10px;
+	background-color: #C6D5C5;
+	width: 100%;
+    float: left;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.columnas-25{
+		float: left;
+		text-align: -webkit-center;
+		padding: 10px 0;
+			
+}
+
+.columnas-25 ul,p{
+	text-align: left;
 }

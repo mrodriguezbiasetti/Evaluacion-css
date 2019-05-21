@@ -29,7 +29,11 @@ img{
 		text-align: -webkit-center;
 	}
 	
-	.imagen-secundaria-sub{
+	.imagen-secundaria-50{
+		width: 100%;
+	}
+	
+	.imagen-secundaria-33{
 		width: 100%;
 	}
 }
@@ -49,8 +53,12 @@ img{
 		float: left;
 	}
 	
-	.imagen-secundaria-sub{
+	.imagen-secundaria-50{
 		width: 50%;
+	}
+	
+	.imagen-secundaria-33{
+		width: 33.33333%;
 	}
 }
 
@@ -88,36 +96,62 @@ header a{
 
 .imagen-secundaria{
 	background-color: #d5c75f;
-	border: 1px solid;
 	float: left;
 	padding: 10px;
 }
 
-.imagen-secundaria-sub{
+.imagen-secundaria-50{
 		float: left;
 		text-align: -webkit-center;
 		margin: 20px 0;
 			
 }
+.imagen-secundaria-33{
+		float: left;
+		text-align: -webkit-center;
+		padding: 10px 0;
+			
+}
+
+.img-33{
+	width: 90%;
+	margin: 0 5%;
+}
+
+#imagen1{
+	filter: blur(10px);
+}
+
+#imagen2, #imagen4, #imagen6{
+	filter: grayscale(100%);
+}
+
+#imagen3{
+	filter: sepia(90%);
+}
 
 #paisajes{
 	width: 70%;
-	border: 2px solid;
+	transition: transform, border;
+	transition-duration: 1s,0.5s;
 }
 
 #retratos{
 	width: 70%;
-	border: 2px solid;
+	transition: transform, border;
+	transition-duration: 1s,0.5s;
 }
 
 #paisajes:hover{
 	transform: rotate(10deg);
-	transition: transform 1s;
 	box-shadow: 2px 2px 11px 0.5em #82c3a6;
+	border: 2px solid;
 }
 
 #retratos:hover{
 	transform: translate(20px,-5px);
-	transition: transform 1s;
+	transition: transform, border;
+	transition-duration: 1s,0.5s;
 	box-shadow: 2px 2px 11px 0.5em #82c3a6;
+	border: 2px solid;
 }

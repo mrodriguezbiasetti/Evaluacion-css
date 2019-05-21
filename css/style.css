@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: DancingScript;
+	src: url(../fonts/DancingScript-Regular.otf);
+}
+body{
+	font-family: DancingScript;
+}
+
+#cabecera{
+	background-color: #5b7989;
+	text-shadow: 2px 2px 10px #02010a;
+	border-radius: 10px;
+	width: 100%;
+}
+
+#imagen-central{
+	text-align: center;
+	background-color: #82c3a6;
+}
+
+#imagen-secundaria{
+	background-color: #d5c75f;
+	border: 1px solid;
+}
+
+#paisajes{
+	border: 2px solid;
+	box-shadow: 2px 2px 11px 0.5em #82c3a6;
+}
+
+#paisajes:hover{
+	transform: rotate(10deg);
+}
